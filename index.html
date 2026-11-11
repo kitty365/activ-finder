@@ -398,9 +398,24 @@
         function startApp() {
             if ('geolocation' in navigator) {
                 navigator.geolocation.getCurrentPosition(
-                    (pos) => { userLat = pos.coords.latitude; userLng = pos.coords.longitude; initMap(userLat, userLng); },
-                    () => { userLat = 47.3769; userLng = 8.5417; initMap(userLat, userLng); },
-                    { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
+                    (pos) => {
+                        userLat = pos.coords.latitude;
+                        userLng = pos.coords.longitude;
+                        initMap(userLat, userLng);
+
+                        // Keep updating position in background for better accuracy
+                        navigator.geolocation.watchPosition((p) => {
+                            userLat = p.coords.latitude;
+                            userLng = p.coords.longitude;
+                            if (userMarker) userMarker.setLatLng([userLat, userLng]);
+                        }, () => {}, { enableHighAccuracy: true });
+                    },
+                    (err) => {
+                        console.warn('Geolocation error:', err.code, err.message);
+                        userLat = 47.3769; userLng = 8.5417;
+                        initMap(userLat, userLng);
+                    },
+                    { enableHighAccuracy: true, timeout: 30000, maximumAge: 0 }
                 );
             } else {
                 userLat = 47.3769; userLng = 8.5417; initMap(userLat, userLng);
