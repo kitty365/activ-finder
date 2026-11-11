@@ -2,7 +2,7 @@
   "name": "Activ Fitness Finder",
   "short_name": "Activ Finder",
   "description": "Finde dein nächstes Activ Fitness Studio (Kat 1 + Kat 2)",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",

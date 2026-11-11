@@ -1,8 +1,8 @@
-const CACHE_NAME = 'activ-finder-v1';
+const CACHE_NAME = 'activ-finder-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/studios.json',
+  './',
+  './index.html',
+  './studios.json',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'
 ];
