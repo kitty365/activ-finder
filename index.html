@@ -536,19 +536,21 @@
             }
 
             clearTimeout(searchTimer);
+            if (directMatch.length === 0) { hint.textContent = 'Suche...'; }
             searchTimer = setTimeout(() => {
-                fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q + ', Schweiz')}&format=json&limit=1&countrycodes=ch`)
+                fetch(`https://photon.komoot.io/api/?q=${encodeURIComponent(q + ' Schweiz')}&limit=1&lang=de`)
                     .then(r => r.json())
-                    .then(results => {
+                    .then(data => {
+                        const results = data.features || [];
                         if (results.length === 0) {
                             if (directMatch.length === 0) hint.textContent = 'Kein Ort gefunden';
                             return;
                         }
 
                         const loc = results[0];
-                        const lat = parseFloat(loc.lat);
-                        const lng = parseFloat(loc.lon);
-                        const locName = loc.display_name.split(',').slice(0, 2).join(',');
+                        const lat = loc.geometry.coordinates[1];
+                        const lng = loc.geometry.coordinates[0];
+                        const locName = loc.properties.name || loc.properties.city || q;
 
                         const sorted = studios.map(s => ({
                             ...s,
