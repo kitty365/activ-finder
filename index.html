@@ -236,6 +236,13 @@
             outline: none;
         }
 
+        .search-hint {
+            font-size: 12px;
+            color: var(--accent);
+            padding: 4px 4px 0;
+            min-height: 0;
+        }
+
         .search-bar input::placeholder {
             color: var(--text-muted);
         }
@@ -376,7 +383,8 @@
             <span class="nearest-badge" id="studioCount">97 Studios</span>
         </div>
         <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Studio suchen...">
+            <input type="text" id="searchInput" placeholder="Ort oder Studio suchen...">
+            <div class="search-hint" id="searchHint"></div>
         </div>
         <div class="studio-list" id="studioList"></div>
     </div>
@@ -520,17 +528,109 @@
             document.getElementById('studioCount').textContent = `${list.length} Studios`;
         }
 
-        // Search
+        // Search with geocoding
+        let searchTimer = null;
+        let searchMarker = null;
+
         document.getElementById('searchInput').addEventListener('input', (e) => {
-            const q = e.target.value.toLowerCase().trim();
-            if (!q) { renderList(studios); return; }
-            const filtered = studios.filter(s =>
-                s.name.toLowerCase().includes(q) ||
-                s.city.toLowerCase().includes(q) ||
-                s.address.toLowerCase().includes(q) ||
-                s.zip.includes(q)
+            const q = e.target.value.trim();
+            const hint = document.getElementById('searchHint');
+
+            if (!q) {
+                hint.textContent = '';
+                if (searchMarker) { map.removeLayer(searchMarker); searchMarker = null; }
+                renderList(studios);
+                return;
+            }
+
+            // First: direct filter on studio names/cities
+            const qLow = q.toLowerCase();
+            const directMatch = studios.filter(s =>
+                s.name.toLowerCase().includes(qLow) ||
+                s.city.toLowerCase().includes(qLow) ||
+                s.address.toLowerCase().includes(qLow) ||
+                s.zip.includes(qLow)
             );
-            renderList(filtered);
+
+            if (directMatch.length > 0) {
+                hint.textContent = '';
+                if (searchMarker) { map.removeLayer(searchMarker); searchMarker = null; }
+                renderList(directMatch);
+            }
+
+            // Also: geocode the query to find nearest studios to any location
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+                fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q + ', Schweiz')}&format=json&limit=1&countrycodes=ch`)
+                    .then(r => r.json())
+                    .then(results => {
+                        if (results.length === 0) {
+                            if (directMatch.length === 0) hint.textContent = 'Kein Ort gefunden';
+                            return;
+                        }
+
+                        const loc = results[0];
+                        const lat = parseFloat(loc.lat);
+                        const lng = parseFloat(loc.lon);
+                        const locName = loc.display_name.split(',').slice(0, 2).join(',');
+
+                        // Calculate distances from searched location
+                        const sorted = studios.map(s => ({
+                            ...s,
+                            searchDist: getDistance(lat, lng, s.lat, s.lng)
+                        })).sort((a, b) => a.searchDist - b.searchDist);
+
+                        // Show search location marker
+                        if (searchMarker) map.removeLayer(searchMarker);
+                        const searchIcon = L.divIcon({
+                            className: 'search-marker',
+                            iconSize: [12, 12],
+                            iconAnchor: [6, 6],
+                            html: '<div style="width:12px;height:12px;background:#4cc9f0;border:2px solid white;border-radius:50%"></div>'
+                        });
+                        searchMarker = L.marker([lat, lng], { icon: searchIcon }).addTo(map);
+                        searchMarker.bindPopup(`<div class="popup-content"><h3>${locName}</h3></div>`);
+
+                        // Zoom to area
+                        const nearest3 = sorted.slice(0, 3);
+                        const bounds = L.latLngBounds([[lat, lng], ...nearest3.map(s => [s.lat, s.lng])]);
+                        map.fitBounds(bounds, { padding: [50, 50] });
+
+                        hint.textContent = `Studios in der Naehe von ${locName}`;
+
+                        // Render with search distances
+                        const container = document.getElementById('studioList');
+                        container.innerHTML = '';
+                        sorted.forEach((s, i) => {
+                            const d = formatDist(s.searchDist);
+                            const card = document.createElement('div');
+                            card.className = 'studio-card' + (i === 0 ? ' nearest' : '');
+                            const katLabel = s.kategorie === 1 ? ' <span style="background:#ffd700;color:#000;font-size:9px;padding:1px 5px;border-radius:5px;font-weight:700">KAT 1</span>' : '';
+                            card.innerHTML = `
+                                <div class="studio-distance">
+                                    <div class="dist-value">${d.value}</div>
+                                    <div class="dist-unit">${d.unit}</div>
+                                </div>
+                                <div class="studio-info">
+                                    <div class="name">${s.name.replace('Activ Fitness ', '')}${katLabel}</div>
+                                    <div class="address">${s.address}, ${s.zip} ${s.city}</div>
+                                </div>
+                                <div class="studio-nav">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                                </div>
+                            `;
+                            card.addEventListener('click', () => {
+                                map.setView([s.lat, s.lng], 16, { animate: true });
+                                const found = markers.find(m => m.studio === s);
+                                if (found) found.marker.openPopup();
+                                collapseSheet();
+                            });
+                            container.appendChild(card);
+                        });
+                        document.getElementById('studioCount').textContent = `${sorted.length} Studios`;
+                    })
+                    .catch(() => {});
+            }, 500);
         });
 
         // Bottom sheet
