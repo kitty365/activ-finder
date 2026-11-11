@@ -410,7 +410,10 @@
         function initMap(lat, lng) {
             map = L.map('map', { zoomControl: false, attributionControl: false }).setView([lat, lng], 13);
 
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 19 }).addTo(map);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; OpenStreetMap'
+            }).addTo(map);
 
             const userIcon = L.divIcon({ className: 'user-marker', iconSize: [18, 18], iconAnchor: [9, 9] });
             userMarker = L.marker([lat, lng], { icon: userIcon }).addTo(map);
