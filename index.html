@@ -116,6 +116,18 @@
             cursor: pointer;
         }
 
+        .sheet-peek {
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+            padding: 0 16px 10px;
+            transition: opacity 0.3s;
+        }
+
+        .bottom-sheet:not(.collapsed) .sheet-peek {
+            display: none;
+        }
+
         .sheet-header {
             padding: 0 16px 12px;
             display: flex;
@@ -358,9 +370,10 @@
 
     <div class="bottom-sheet collapsed" id="bottomSheet">
         <div class="sheet-handle" id="sheetHandle"></div>
+        <div class="sheet-peek" id="sheetPeek">Swipe hoch um das naechste Studio zu finden</div>
         <div class="sheet-header">
-            <h2>Studios in der Nähe</h2>
-            <span class="nearest-badge" id="studioCount">93 Studios</span>
+            <h2>Studios in der Naehe</h2>
+            <span class="nearest-badge" id="studioCount">97 Studios</span>
         </div>
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Studio suchen...">
