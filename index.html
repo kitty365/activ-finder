@@ -11,6 +11,7 @@
     <link rel="manifest" href="manifest.json">
     <title>Activ Fitness Finder</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -493,6 +494,8 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
     <script>
         const ARCHHOFE_SQM = 1500;
         const DAY_KEYS = ['so', 'mo', 'di', 'mi', 'do', 'fr', 'sa'];
@@ -628,9 +631,8 @@
         function initMap(lat, lng) {
             map = L.map('map', { zoomControl: false, attributionControl: false }).setView([lat, lng], 13);
 
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 19,
-                attribution: '© OpenStreetMap'
+            L.maplibreGL({
+                style: 'https://tiles.openfreemap.org/styles/positron'
             }).addTo(map);
 
             const userIcon = L.divIcon({ className: 'user-marker', iconSize: [14, 14], iconAnchor: [7, 7] });
