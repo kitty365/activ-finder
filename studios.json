@@ -8,7 +8,28 @@
     "lng": 8.0535,
     "phone": "+41 62 521 00 77",
     "url": "https://www.activfitness.ch/studios/activ-fitness-aarau-bahnhof/",
-    "kategorie": 1
+    "kategorie": 1,
+    "hours": {
+      "mo": "06:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "06:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "06:00-22:00",
+      "sa": "08:00-17:00",
+      "so": "08:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 720,
+    "training_stations": 75,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Bern Parkterrasse",
@@ -19,7 +40,27 @@
     "lng": 7.438316,
     "phone": "+41 31 521 00 67",
     "url": "https://www.activfitness.ch/studios/activ-fitness-bern-hauptbahnhof/",
-    "kategorie": 1
+    "kategorie": 1,
+    "hours": {
+      "mo": "06:00-22:00",
+      "di": "06:00-22:00",
+      "mi": "06:00-22:00",
+      "do": "06:00-22:00",
+      "fr": "06:00-22:00",
+      "sa": "08:00-18:00",
+      "so": "08:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1400,
+    "training_stations": 88,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training"
+    ]
   },
   {
     "name": "Activ Fitness Emmenbrücke",
@@ -30,7 +71,29 @@
     "lng": 8.286743,
     "phone": "+41 41 261 00 00",
     "url": "https://www.activfitness.ch/studios/activ-fitness-emmenbruecke/",
-    "kategorie": 1
+    "kategorie": 1,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "08:00-22:00",
+      "mi": "06:30-22:00",
+      "do": "08:00-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1441,
+    "training_stations": 88,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Solothurn West",
@@ -41,7 +104,28 @@
     "lng": 7.532901,
     "phone": "+41 32 521 21 32",
     "url": "https://www.activfitness.ch/studios/activ-fitness-solothurn-west/",
-    "kategorie": 1
+    "kategorie": 1,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:00-22:00",
+      "mi": "06:00-22:00",
+      "do": "06:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "08:00-17:00",
+      "so": "08:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1050,
+    "training_stations": 86,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Baden",
@@ -52,7 +136,30 @@
     "lng": 8.308178,
     "phone": "+41 56 560 10 60",
     "url": "https://www.activfitness.ch/studios/activ-fitness-baden/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1050,
+    "training_stations": 36,
+    "weekly_classes": 22,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Bulle",
@@ -63,7 +170,30 @@
     "lng": 7.056,
     "phone": "+41 26 912 09 09",
     "url": "https://www.activfitness.ch/studios/activ-fitness-bulle/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1217,
+    "training_stations": 85,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Fribourg",
@@ -74,7 +204,30 @@
     "lng": 7.151,
     "phone": "+41 26 655 00 11",
     "url": "https://www.activfitness.ch/studios/activ-fitness-fribourg/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1500,
+    "training_stations": 85,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Carouge Acacias",
@@ -85,7 +238,28 @@
     "lng": 6.138,
     "phone": "+41 22 343 78 70",
     "url": "https://www.activfitness.ch/studios/activ-fitness-acacias/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:00",
+      "di": "06:30-21:00",
+      "mi": "06:30-21:00",
+      "do": "06:30-21:00",
+      "fr": "06:30-21:00",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 90,
+    "weekly_classes": 33,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training"
+    ]
   },
   {
     "name": "Activ Fitness Genf Alpes",
@@ -96,7 +270,29 @@
     "lng": 6.147,
     "phone": "+41 22 732 77 40",
     "url": "https://www.activfitness.ch/studios/activ-fitness-genf-alpes/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": null,
+    "training_stations": 90,
+    "weekly_classes": 30,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Genf Balexert",
@@ -107,7 +303,30 @@
     "lng": 6.113007,
     "phone": "+41 22 570 30 13",
     "url": "https://www.activfitness.ch/studios/activ-fitness-balexert/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "07:00-21:30",
+      "di": "07:00-21:30",
+      "mi": "07:00-21:30",
+      "do": "07:00-21:30",
+      "fr": "07:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 839,
+    "training_stations": 75,
+    "weekly_classes": 39,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Genf Charmilles",
@@ -118,7 +337,30 @@
     "lng": 6.120817,
     "phone": "+41 22 345 14 80",
     "url": "https://www.activfitness.ch/studios/activ-fitness-genf-charmilles/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1350,
+    "training_stations": 85,
+    "weekly_classes": 36,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Genf Eaux-Vives Gare",
@@ -129,7 +371,29 @@
     "lng": 6.165877,
     "phone": "+41 22 570 30 14",
     "url": "https://www.activfitness.ch/studios/activ-fitness-genf-eaux-vives/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:00-21:00",
+      "di": "06:00-21:00",
+      "mi": "06:00-21:00",
+      "do": "06:00-21:00",
+      "fr": "06:00-21:00",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 950,
+    "training_stations": 70,
+    "weekly_classes": 30,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Genf Maunoir",
@@ -140,7 +404,28 @@
     "lng": 6.162,
     "phone": "+41 22 786 18 22",
     "url": "https://www.activfitness.ch/studios/activ-fitness-genf-maunoir/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1865,
+    "training_stations": 85,
+    "weekly_classes": 45,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Genf Rhône",
@@ -151,7 +436,28 @@
     "lng": 6.147,
     "phone": "+41 22 570 30 24",
     "url": "https://www.activfitness.ch/studios/activ-fitness-genf-rhone/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-21:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-14:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 70,
+    "weekly_classes": 45,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Genf Vermont",
@@ -162,7 +468,26 @@
     "lng": 6.135,
     "phone": "+41 22 733 20 75",
     "url": "https://www.activfitness.ch/studios/activ-fitness-genf-vermont/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:00",
+      "di": "06:30-21:00",
+      "mi": "06:30-21:00",
+      "do": "06:30-21:00",
+      "fr": "06:30-21:00",
+      "sa": "07:00-16:00",
+      "so": "07:00-16:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 342,
+    "training_stations": 40,
+    "weekly_classes": 26,
+    "features": [
+      "Sauna",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Lancy Pont Rouge",
@@ -173,7 +498,28 @@
     "lng": 6.127138,
     "phone": "+41 22 570 30 09",
     "url": "https://www.activfitness.ch/studios/activ-fitness-lancy-pont-rouge/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": null,
+      "fr": null,
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 63,
+    "weekly_classes": 28,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Petit-Lancy",
@@ -184,7 +530,29 @@
     "lng": 6.115,
     "phone": "+41 22 793 84 46",
     "url": "https://www.activfitness.ch/studios/activ-fitness-petit-lancy/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:00",
+      "di": "06:30-21:00",
+      "mi": "06:30-21:00",
+      "do": "06:30-21:00",
+      "fr": "06:30-21:00",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1130,
+    "training_stations": 55,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Plan-les-Ouates",
@@ -195,7 +563,28 @@
     "lng": 6.104,
     "phone": "+41 22 300 69 69",
     "url": "https://www.activfitness.ch/studios/activ-fitness-plan-les-ouates/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:00",
+      "di": "06:30-21:00",
+      "mi": "06:30-21:00",
+      "do": "06:30-21:00",
+      "fr": "06:30-21:00",
+      "sa": "09:00-16:00",
+      "so": "09:00-16:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1780,
+    "training_stations": 67,
+    "weekly_classes": 27,
+    "features": [
+      "Sauna",
+      "EGYM",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Chur",
@@ -206,7 +595,31 @@
     "lng": 9.530419,
     "phone": "+41 81 356 70 70",
     "url": "https://www.activfitness.ch/studios/activ-fitness-chur/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "08:00-21:30",
+      "mi": "06:30-21:30",
+      "do": "08:00-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1064,
+    "training_stations": 84,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Samedan",
@@ -217,7 +630,27 @@
     "lng": 9.874192,
     "phone": "+41 81 515 08 10",
     "url": "https://www.activfitness.ch/studios/activ-fitness-samedan/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 848,
+    "training_stations": 60,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness St. Moritz",
@@ -228,7 +661,28 @@
     "lng": 9.83644,
     "phone": "+41 81 515 08 30",
     "url": "https://www.activfitness.ch/studios/activ-fitness-st-moritz/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "08:00-21:30",
+      "mi": "06:30-21:30",
+      "do": "08:00-21:30",
+      "fr": "06:30-21:30",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 502,
+    "training_stations": 55,
+    "weekly_classes": null,
+    "features": [
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "HYROX",
+      "SkiErg"
+    ]
   },
   {
     "name": "Activ Fitness Delémont",
@@ -239,7 +693,28 @@
     "lng": 7.34816,
     "phone": "+41 32 521 21 10",
     "url": "https://www.activfitness.ch/studios/activ-fitness-delemont/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 890,
+    "training_stations": null,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Herisau",
@@ -250,7 +725,30 @@
     "lng": 9.283915,
     "phone": "+41 71 571 19 55",
     "url": "https://www.activfitness.ch/studios/activ-fitness-herisau/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 65,
+    "weekly_classes": 27,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Boudevilliers",
@@ -261,7 +759,30 @@
     "lng": 6.888,
     "phone": "+41 32 521 21 08",
     "url": "https://www.activfitness.ch/studios/activ-fitness-boudevilliers/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:00",
+      "di": "08:00-21:00",
+      "mi": "08:00-21:00",
+      "do": "08:00-21:00",
+      "fr": "08:00-21:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 630,
+    "training_stations": 48,
+    "weekly_classes": 17,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Corcelles",
@@ -272,7 +793,28 @@
     "lng": 6.884,
     "phone": "+41 32 521 21 07",
     "url": "https://www.activfitness.ch/studios/activ-fitness-corcelles/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:00",
+      "di": "06:30-21:00",
+      "mi": "08:00-21:00",
+      "do": "06:30-21:00",
+      "fr": "08:00-21:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": null,
+    "training_stations": 60,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness La Chaux-de-Fonds",
@@ -283,7 +825,32 @@
     "lng": 6.826,
     "phone": "+41 32 521 21 09",
     "url": "https://www.activfitness.ch/studios/activ-fitness-la-chaux-de-fonds/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1265,
+    "training_stations": 72,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Neuchâtel City-Centre",
@@ -294,7 +861,28 @@
     "lng": 6.926,
     "phone": "+41 32 521 21 05",
     "url": "https://www.activfitness.ch/studios/activ-fitness-neuchatel-city-centre/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1140,
+    "training_stations": 70,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Neuchâtel Nid-Du Crô",
@@ -305,7 +893,26 @@
     "lng": 6.957,
     "phone": "+41 32 521 21 06",
     "url": "https://www.activfitness.ch/studios/activ-fitness-nid-du-cro/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:00",
+      "di": "08:00-21:00",
+      "mi": "09:00-21:00",
+      "do": "08:00-21:00",
+      "fr": "08:00-21:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 300,
+    "training_stations": 43,
+    "weekly_classes": 6,
+    "features": [
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Schaffhausen",
@@ -316,7 +923,28 @@
     "lng": 8.62889,
     "phone": "+41 52 624 13 43",
     "url": "https://www.activfitness.ch/studios/activ-fitness-schaffhausen/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 1300,
+    "training_stations": 107,
+    "weekly_classes": 33,
+    "features": [
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Lachen",
@@ -327,7 +955,31 @@
     "lng": 8.851,
     "phone": "+41 55 462 11 00",
     "url": "https://www.activfitness.ch/studios/activ-fitness-lachen/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1261,
+    "training_stations": 105,
+    "weekly_classes": 29,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Massagen",
+      "Physiotherapie",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Abtwil SG Säntispark",
@@ -338,7 +990,28 @@
     "lng": 9.315954,
     "phone": "+41 71 521 12 13",
     "url": "https://www.activfitness.ch/studios/activ-fitness-abtwil-sg-saentispark/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "08:00-18:00",
+      "so": "08:00-18:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 962,
+    "training_stations": 103,
+    "weekly_classes": 0,
+    "features": [
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Buchs SG",
@@ -349,7 +1022,32 @@
     "lng": 9.478494,
     "phone": "+41 81 740 07 00",
     "url": "https://www.activfitness.ch/studios/activ-fitness-buchs-sg/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1035,
+    "training_stations": 78,
+    "weekly_classes": 24,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Gossau SG",
@@ -360,7 +1058,30 @@
     "lng": 9.254842,
     "phone": "+41 71 383 18 35",
     "url": "https://www.activfitness.ch/studios/activ-fitness-gossau-sg/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 1660,
+    "training_stations": 82,
+    "weekly_classes": 22,
+    "features": [
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Jona",
@@ -371,7 +1092,29 @@
     "lng": 8.849,
     "phone": "+41 55 212 83 83",
     "url": "https://www.activfitness.ch/studios/activ-fitness-jona/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1200,
+    "training_stations": 90,
+    "weekly_classes": 30,
+    "features": [
+      "Sauna",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness St. Gallen Silberturm",
@@ -382,7 +1125,28 @@
     "lng": 9.395605,
     "phone": "+41 71 521 21 23",
     "url": "https://www.activfitness.ch/studios/activ-fitness-st-gallen-silberturm/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 980,
+    "training_stations": 45,
+    "weekly_classes": 18,
+    "features": [
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness St. Gallen Unterer Graben",
@@ -393,7 +1157,28 @@
     "lng": 9.374954,
     "phone": "+41 71 571 20 56",
     "url": "https://www.activfitness.ch/studios/activ-fitness-unterer-graben/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "08:00-17:00",
+      "so": "08:00-17:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 1400,
+    "training_stations": 206,
+    "weekly_classes": 29,
+    "features": [
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Thal",
@@ -404,7 +1189,28 @@
     "lng": 9.57746,
     "phone": "+41 71 521 21 08",
     "url": "https://www.activfitness.ch/studios/activ-fitness-thal/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:00-21:30",
+      "di": "08:00-21:30",
+      "mi": "06:00-21:30",
+      "do": "08:00-21:30",
+      "fr": "06:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 962,
+    "training_stations": 68,
+    "weekly_classes": 21,
+    "features": [
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Uznach",
@@ -415,7 +1221,27 @@
     "lng": 8.965154,
     "phone": "+41 55 505 10 25",
     "url": "https://www.activfitness.ch/studios/activ-fitness-uznach/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:30-22:00",
+      "mi": "08:00-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1200,
+    "training_stations": null,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training"
+    ]
   },
   {
     "name": "Activ Fitness Uzwil",
@@ -426,7 +1252,29 @@
     "lng": 9.134892,
     "phone": "+41 71 571 06 70",
     "url": "https://www.activfitness.ch/studios/activ-fitness-uzwil/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1000,
+    "training_stations": null,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Wil SG",
@@ -437,7 +1285,30 @@
     "lng": 9.040358,
     "phone": "+41 71 912 40 50",
     "url": "https://www.activfitness.ch/studios/activ-fitness-wil-sg/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "08:00-21:30",
+      "mi": "06:30-21:30",
+      "do": "08:00-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 73,
+    "weekly_classes": 28,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Bellinzona",
@@ -448,7 +1319,31 @@
     "lng": 9.026,
     "phone": "+41 91 821 78 70",
     "url": "https://www.activfitness.ch/studios/activ-fitness-bellinzona/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1300,
+    "training_stations": 70,
+    "weekly_classes": 33,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Massagen",
+      "Physiotherapie",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Biasca",
@@ -459,7 +1354,29 @@
     "lng": 8.972591,
     "phone": "+41 91 821 78 58",
     "url": "https://www.activfitness.ch/studios/activ-fitness-biasca/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "07:00-21:00",
+      "di": "07:00-21:00",
+      "mi": "07:00-21:00",
+      "do": "07:00-21:00",
+      "fr": "07:00-21:00",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1110,
+    "training_stations": 80,
+    "weekly_classes": 20,
+    "features": [
+      "Sauna",
+      "Bio-Sauna",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Giubiasco",
@@ -470,7 +1387,28 @@
     "lng": 9.002074,
     "phone": "+41 91 821 78 80",
     "url": "https://www.activfitness.ch/studios/activ-fitness-giubiasco/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "08:00-17:00",
+      "so": "08:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 800,
+    "training_stations": 50,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Bio-Sauna",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Losone",
@@ -481,7 +1419,29 @@
     "lng": 8.772,
     "phone": "+41 91 821 77 88",
     "url": "https://www.activfitness.ch/studios/activ-fitness-losone/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:00-22:00",
+      "di": "06:00-22:00",
+      "mi": "06:00-22:00",
+      "do": "06:00-22:00",
+      "fr": "06:00-22:00",
+      "sa": "09:00-19:00",
+      "so": "09:00-19:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1300,
+    "training_stations": 80,
+    "weekly_classes": 33,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Lugano",
@@ -492,7 +1452,30 @@
     "lng": 8.952,
     "phone": "+41 91 821 70 90",
     "url": "https://www.activfitness.ch/studios/activ-fitness-lugano/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1300,
+    "training_stations": 90,
+    "weekly_classes": 35,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Mendrisio",
@@ -503,7 +1486,30 @@
     "lng": 8.986,
     "phone": "+41 91 821 75 50",
     "url": "https://www.activfitness.ch/studios/activ-fitness-mendrisio/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 65,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Riazzino",
@@ -514,7 +1520,29 @@
     "lng": 8.896461,
     "phone": "+41 91 821 78 88",
     "url": "https://www.activfitness.ch/studios/activ-fitness-riazzino/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "08:00-17:00",
+      "so": "08:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 80,
+    "weekly_classes": 20,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Serfontana",
@@ -525,7 +1553,29 @@
     "lng": 9.0157396,
     "phone": "+41 91 821 74 80",
     "url": "https://www.activfitness.ch/studios/activ-fitness-serfontana/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:00",
+      "di": "06:30-21:00",
+      "mi": "06:30-21:00",
+      "do": "06:30-21:00",
+      "fr": "06:30-21:00",
+      "sa": "09:00-18:30",
+      "so": "09:00-18:30"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1110,
+    "training_stations": 80,
+    "weekly_classes": 22,
+    "features": [
+      "Sauna",
+      "Bio-Sauna",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Vezia",
@@ -536,7 +1586,29 @@
     "lng": 8.936615,
     "phone": "+41 91 821 73 10",
     "url": "https://www.activfitness.ch/studios/activ-fitness-vezia/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "06:30-21:30",
+      "mi": "06:30-21:30",
+      "do": "06:30-21:30",
+      "fr": "06:30-21:30",
+      "sa": "08:00-17:00",
+      "so": "08:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 75,
+    "weekly_classes": 30,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Amriswil",
@@ -547,7 +1619,31 @@
     "lng": 9.298091,
     "phone": "+41 71 571 20 57",
     "url": "https://www.activfitness.ch/studios/activ-fitness-amriswil/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "08:00-18:00",
+      "so": "08:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1146,
+    "training_stations": 80,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Arbon",
@@ -558,7 +1654,33 @@
     "lng": 9.432242,
     "phone": "+41 71 421 21 01",
     "url": "https://www.activfitness.ch/studios/activ-fitness-arbon/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1075,
+    "training_stations": 84,
+    "weekly_classes": 20,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Massagen",
+      "Physiotherapie",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Frauenfeld",
@@ -569,7 +1691,32 @@
     "lng": 8.89771,
     "phone": "+41 52 722 45 45",
     "url": "https://www.activfitness.ch/studios/activ-fitness-frauenfeld/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "08:00-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1400,
+    "training_stations": 71,
+    "weekly_classes": 30,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Kreuzlingen",
@@ -580,7 +1727,32 @@
     "lng": 9.17552,
     "phone": "+41 71 521 21 03",
     "url": "https://www.activfitness.ch/studios/activ-fitness-kreuzlingen/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1072,
+    "training_stations": 82,
+    "weekly_classes": 26,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Massagen",
+      "Physiotherapie",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Aigle",
@@ -591,7 +1763,29 @@
     "lng": 6.937,
     "phone": "+41 24 466 40 85",
     "url": "https://www.activfitness.ch/studios/activ-fitness-aigle/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 75,
+    "weekly_classes": 22,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Lausanne Chauderon",
@@ -602,7 +1796,29 @@
     "lng": 6.626,
     "phone": "+41 21 324 80 80",
     "url": "https://www.activfitness.ch/studios/activ-fitness-lausanne-chauderon/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1125,
+    "training_stations": 75,
+    "weekly_classes": 30,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training"
+    ]
   },
   {
     "name": "Activ Fitness Lausanne Théâtre",
@@ -613,7 +1829,27 @@
     "lng": 6.637,
     "phone": "+41 21 320 03 03",
     "url": "https://www.activfitness.ch/studios/activ-fitness-lausanne-theatre/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1000,
+    "training_stations": 62,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte"
+    ]
   },
   {
     "name": "Activ Fitness Montreux",
@@ -624,7 +1860,29 @@
     "lng": 6.91,
     "phone": "+41 21 965 13 55",
     "url": "https://www.activfitness.ch/studios/activ-fitness-montreux/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "07:00-21:00",
+      "di": "07:00-21:00",
+      "mi": "07:00-21:00",
+      "do": "07:00-21:00",
+      "fr": "07:00-21:00",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1533,
+    "training_stations": 78,
+    "weekly_classes": 19,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Morges",
@@ -635,7 +1893,28 @@
     "lng": 6.498151,
     "phone": "+41 21 801 20 07",
     "url": "https://www.activfitness.ch/studios/activ-fitness-morges/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:00",
+      "di": "06:30-21:00",
+      "mi": "06:30-21:00",
+      "do": "06:30-21:00",
+      "fr": "06:30-21:00",
+      "sa": "09:00-16:00",
+      "so": "09:00-16:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1000,
+    "training_stations": 58,
+    "weekly_classes": 21,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Nyon Morâche",
@@ -646,7 +1925,29 @@
     "lng": 6.234,
     "phone": "+41 22 361 00 00",
     "url": "https://www.activfitness.ch/studios/activ-fitness-nyon-morache/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1168,
+    "training_stations": 76,
+    "weekly_classes": 40,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training"
+    ]
   },
   {
     "name": "Activ Fitness Renens",
@@ -657,7 +1958,28 @@
     "lng": 6.578257,
     "phone": "+41 21 515 61 60",
     "url": "https://www.activfitness.ch/studios/activ-fitness-renens/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1000,
+    "training_stations": 42,
+    "weekly_classes": 28,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Vevey",
@@ -668,7 +1990,29 @@
     "lng": 6.842,
     "phone": "+41 21 921 73 73",
     "url": "https://www.activfitness.ch/studios/activ-fitness-vevey/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1366,
+    "training_stations": 77,
+    "weekly_classes": 26,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Brig",
@@ -679,7 +2023,25 @@
     "lng": 7.989703,
     "phone": "+41 27 521 04 10",
     "url": "https://www.activfitness.ch/studios/activ-fitness-brig/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 865,
+    "training_stations": null,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Freie Gewichte"
+    ]
   },
   {
     "name": "Activ Fitness Martigny",
@@ -690,7 +2052,30 @@
     "lng": 7.086,
     "phone": "+41 27 722 11 77",
     "url": "https://www.activfitness.ch/studios/activ-fitness-martigny/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1126,
+    "training_stations": 65,
+    "weekly_classes": 21,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Monthey",
@@ -701,7 +2086,26 @@
     "lng": 6.948813,
     "phone": "+41 24 471 95 53",
     "url": "https://www.activfitness.ch/studios/activ-fitness-monthey/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "08:00-21:30",
+      "mi": "08:00-21:30",
+      "do": "08:00-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1028,
+    "training_stations": 85,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte"
+    ]
   },
   {
     "name": "Activ Fitness Sierre",
@@ -712,7 +2116,28 @@
     "lng": 7.533057,
     "phone": "+41 27 527 02 94",
     "url": "https://www.activfitness.ch/studios/activ-fitness-sierre/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:00-22:00",
+      "di": "06:00-22:00",
+      "mi": "06:00-22:00",
+      "do": "06:00-22:00",
+      "fr": "06:00-22:00",
+      "sa": "06:00-18:00",
+      "so": "06:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1300,
+    "training_stations": 77,
+    "weekly_classes": 53,
+    "features": [
+      "Sauna",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Sion Gare",
@@ -723,7 +2148,27 @@
     "lng": 7.357,
     "phone": "+41 27 521 04 15",
     "url": "https://www.activfitness.ch/studios/activ-fitness-sion-gare/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 73,
+    "weekly_classes": 27,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte"
+    ]
   },
   {
     "name": "Activ Fitness Sion Planta",
@@ -734,7 +2179,27 @@
     "lng": 7.356858,
     "phone": "+41 27 322 02 71",
     "url": "https://www.activfitness.ch/studios/activ-fitness-sion-planta/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "09:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "09:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "09:00-21:00",
+      "sa": "09:00-16:00",
+      "so": "09:00-16:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 61,
+    "weekly_classes": 21,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Adliswil",
@@ -745,7 +2210,28 @@
     "lng": 8.52922,
     "phone": "+41 43 543 24 12",
     "url": "https://www.activfitness.ch/studios/activ-fitness-adliswil/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "08:00-22:00",
+      "mi": "06:30-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1163,
+    "training_stations": 65,
+    "weekly_classes": 22,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training"
+    ]
   },
   {
     "name": "Activ Fitness Affoltern a.A.",
@@ -756,7 +2242,29 @@
     "lng": 8.444,
     "phone": "+41 43 543 22 07",
     "url": "https://www.activfitness.ch/studios/activ-fitness-affoltern-a-a/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:30-22:00",
+      "mi": "08:00-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 70,
+    "weekly_classes": 31,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Bülach",
@@ -767,7 +2275,30 @@
     "lng": 8.542,
     "phone": "+41 44 860 26 66",
     "url": "https://www.activfitness.ch/studios/activ-fitness-buelach/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1455,
+    "training_stations": 98,
+    "weekly_classes": 31,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Dielsdorf",
@@ -778,7 +2309,28 @@
     "lng": 8.455566,
     "phone": "+41 44 853 44 55",
     "url": "https://www.activfitness.ch/studios/activ-fitness-dielsdorf/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1560,
+    "training_stations": 82,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Dietikon",
@@ -789,7 +2341,30 @@
     "lng": 8.402,
     "phone": "+41 44 201 99 22",
     "url": "https://www.activfitness.ch/studios/activ-fitness-dietikon/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1580,
+    "training_stations": 99,
+    "weekly_classes": 31,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Dübendorf",
@@ -800,7 +2375,29 @@
     "lng": 8.618,
     "phone": "+41 43 333 86 50",
     "url": "https://www.activfitness.ch/studios/activ-fitness-duebendorf/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:30-22:00",
+      "mi": "08:00-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1390,
+    "training_stations": 115,
+    "weekly_classes": 31,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Horgen",
@@ -811,7 +2408,29 @@
     "lng": 8.596,
     "phone": "+41 43 244 63 70",
     "url": "https://www.activfitness.ch/studios/activ-fitness-horgen/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "08:00-22:00",
+      "mi": "06:30-22:00",
+      "do": "08:00-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 975,
+    "training_stations": 85,
+    "weekly_classes": 29,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Kloten",
@@ -822,7 +2441,31 @@
     "lng": 8.583223,
     "phone": "+41 43 810 47 47",
     "url": "https://www.activfitness.ch/studios/activ-fitness-kloten/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1389,
+    "training_stations": 108,
+    "weekly_classes": 38,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Meilen",
@@ -833,7 +2476,26 @@
     "lng": 8.65,
     "phone": "+41 44 923 65 40",
     "url": "https://www.activfitness.ch/studios/activ-fitness-meilen/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 640,
+    "training_stations": 72,
+    "weekly_classes": 24,
+    "features": [
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Rüti",
@@ -844,7 +2506,31 @@
     "lng": 8.854,
     "phone": "+41 55 260 11 33",
     "url": "https://www.activfitness.ch/studios/activ-fitness-rueti/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1500,
+    "training_stations": 99,
+    "weekly_classes": 26,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Schlieren",
@@ -855,7 +2541,29 @@
     "lng": 8.448,
     "phone": "+41 43 543 22 06",
     "url": "https://www.activfitness.ch/studios/activ-fitness-schlieren/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 96,
+    "weekly_classes": 28,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training"
+    ]
   },
   {
     "name": "Activ Fitness Stäfa",
@@ -866,7 +2574,29 @@
     "lng": 8.721,
     "phone": "+41 43 543 24 13",
     "url": "https://www.activfitness.ch/studios/activ-fitness-staefa/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1164,
+    "training_stations": 95,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Stettbach",
@@ -877,7 +2607,29 @@
     "lng": 8.596962,
     "phone": "+41 44 545 12 10",
     "url": "https://www.activfitness.ch/studios/activ-fitness-stettbach/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "08:00-22:00",
+      "mi": "06:30-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1040,
+    "training_stations": 100,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Uster",
@@ -888,7 +2640,31 @@
     "lng": 8.718,
     "phone": "+41 44 941 10 10",
     "url": "https://www.activfitness.ch/studios/activ-fitness-uster/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:30-22:00",
+      "mi": "08:00-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1800,
+    "training_stations": 155,
+    "weekly_classes": 40,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Physiotherapie",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Volketswil",
@@ -899,7 +2675,28 @@
     "lng": 8.680564,
     "phone": "+41 44 521 19 33",
     "url": "https://www.activfitness.ch/studios/activ-fitness-volketswil/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1200,
+    "training_stations": 86,
+    "weekly_classes": 29,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Wädenswil",
@@ -910,7 +2707,29 @@
     "lng": 8.636,
     "phone": "+41 44 781 28 28",
     "url": "https://www.activfitness.ch/studios/activ-fitness-waedenswil/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1415,
+    "training_stations": 131,
+    "weekly_classes": 34,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Wetzikon",
@@ -921,7 +2740,27 @@
     "lng": 8.798,
     "phone": "+41 43 233 01 01",
     "url": "https://www.activfitness.ch/studios/activ-fitness-wetzikon/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1400,
+    "training_stations": 162,
+    "weekly_classes": 30,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Kinderparadies",
+      "Freie Gewichte"
+    ]
   },
   {
     "name": "Activ Fitness Winterthur Archhöfe",
@@ -932,7 +2771,28 @@
     "lng": 8.724536,
     "phone": "+41 52 203 20 50",
     "url": "https://www.activfitness.ch/studios/activ-fitness-winterthur-archhoefe/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "06:30-21:30",
+      "mi": "08:00-21:30",
+      "do": "06:30-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": false,
+    "dampfbad": false,
+    "size_sqm": 1500,
+    "training_stations": 109,
+    "weekly_classes": 38,
+    "features": [
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Winterthur WIN4",
@@ -943,7 +2803,31 @@
     "lng": 8.749025,
     "phone": "+41 52 550 15 05",
     "url": "https://www.activfitness.ch/studios/activ-fitness-winterthur-win4/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-21:30",
+      "di": "08:00-21:30",
+      "mi": "06:30-21:30",
+      "do": "08:00-21:30",
+      "fr": "06:30-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1450,
+    "training_stations": 97,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Massagen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Altstetten",
@@ -954,7 +2838,29 @@
     "lng": 8.488,
     "phone": "+41 43 811 80 30",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-altstetten/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1600,
+    "training_stations": 95,
+    "weekly_classes": 35,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Bellevue",
@@ -965,7 +2871,29 @@
     "lng": 8.546512,
     "phone": "+41 44 521 08 01",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-bellevue/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "08:00-18:00",
+      "so": "08:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 891,
+    "training_stations": 86,
+    "weekly_classes": 33,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Central",
@@ -976,7 +2904,27 @@
     "lng": 8.544,
     "phone": "+41 44 261 04 14",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-central/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1400,
+    "training_stations": 136,
+    "weekly_classes": 34,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte",
+      "Massagen"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Forum",
@@ -987,7 +2935,26 @@
     "lng": 8.524,
     "phone": "+41 44 291 92 52",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-forum/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "08:00-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1500,
+    "training_stations": 85,
+    "weekly_classes": 43,
+    "features": [
+      "Sauna",
+      "Kinderparadies",
+      "Freie Gewichte"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Kreuzplatz",
@@ -998,7 +2965,28 @@
     "lng": 8.553811,
     "phone": "+41 43 543 22 12",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-kreuzplatz/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "06:30-22:00",
+      "do": "06:30-22:00",
+      "fr": "06:30-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 940,
+    "training_stations": 76,
+    "weekly_classes": 28,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Langstrasse",
@@ -1009,7 +2997,26 @@
     "lng": 8.53,
     "phone": "+41 44 273 99 73",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-langstrasse/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-21:30",
+      "di": "07:00-21:30",
+      "mi": "08:00-21:30",
+      "do": "07:00-21:30",
+      "fr": "08:00-21:30",
+      "sa": "09:00-17:00",
+      "so": "09:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 59,
+    "weekly_classes": 19,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "Freie Gewichte"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Oerlikon",
@@ -1020,7 +3027,30 @@
     "lng": 8.551,
     "phone": "+41 44 822 70 00",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-oerlikon/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "08:00-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": null,
+    "training_stations": null,
+    "weekly_classes": null,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Für Menschen mit Behinderungen",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Stauffacher",
@@ -1031,7 +3061,29 @@
     "lng": 8.531,
     "phone": "+41 44 291 20 15",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-stauffacher/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "06:30-22:00",
+      "mi": "08:00-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1491,
+    "training_stations": 107,
+    "weekly_classes": 40,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Tiefenbrunnen",
@@ -1042,7 +3094,28 @@
     "lng": 8.561,
     "phone": "+41 44 422 50 30",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-tiefenbrunnen/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "06:30-22:00",
+      "mi": "08:00-22:00",
+      "do": "06:30-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1508,
+    "training_stations": 101,
+    "weekly_classes": 42,
+    "features": [
+      "Sauna",
+      "EGYM",
+      "Kinderparadies",
+      "Freie Gewichte",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Wiedikon",
@@ -1053,7 +3126,29 @@
     "lng": 8.508451,
     "phone": "+41 44 521 08 00",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-wiedikon/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "06:30-22:00",
+      "di": "08:00-22:00",
+      "mi": "06:30-22:00",
+      "do": "08:00-22:00",
+      "fr": "06:30-22:00",
+      "sa": "08:00-17:00",
+      "so": "08:00-17:00"
+    },
+    "sauna": true,
+    "dampfbad": true,
+    "size_sqm": 1100,
+    "training_stations": 58,
+    "weekly_classes": 32,
+    "features": [
+      "Sauna",
+      "Dampfbad",
+      "EGYM",
+      "Freie Gewichte",
+      "Funktionales Training",
+      "Parkplätze vorhanden"
+    ]
   },
   {
     "name": "Activ Fitness Zürich Wipkingen",
@@ -1064,6 +3159,25 @@
     "lng": 8.529681,
     "phone": "+41 44 273 56 10",
     "url": "https://www.activfitness.ch/studios/activ-fitness-zuerich-wipkingen/",
-    "kategorie": 2
+    "kategorie": 2,
+    "hours": {
+      "mo": "08:00-22:00",
+      "di": "08:00-22:00",
+      "mi": "08:00-22:00",
+      "do": "08:00-22:00",
+      "fr": "08:00-22:00",
+      "sa": "09:00-18:00",
+      "so": "09:00-18:00"
+    },
+    "sauna": true,
+    "dampfbad": false,
+    "size_sqm": 1190,
+    "training_stations": 26,
+    "weekly_classes": 25,
+    "features": [
+      "Sauna",
+      "Kinderparadies",
+      "Freie Gewichte"
+    ]
   }
 ]
