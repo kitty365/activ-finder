@@ -1,4 +1,4 @@
-const CACHE_NAME = 'activ-finder-v3';
+const CACHE_NAME = 'activ-finder-v4';
 const ASSETS = [
   './',
   './index.html',

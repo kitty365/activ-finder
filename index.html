@@ -628,9 +628,9 @@
         function initMap(lat, lng) {
             map = L.map('map', { zoomControl: false, attributionControl: false }).setView([lat, lng], 13);
 
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
-                attribution: '© OpenStreetMap, © CARTO'
+                attribution: '© OpenStreetMap'
             }).addTo(map);
 
             const userIcon = L.divIcon({ className: 'user-marker', iconSize: [14, 14], iconAnchor: [7, 7] });
