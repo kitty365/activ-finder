@@ -97,7 +97,7 @@
         }
 
         .panel.closed {
-            transform: translateY(calc(100% - 56px - var(--safe-bottom)));
+            transform: translateY(calc(100% - 310px - var(--safe-bottom)));
         }
 
         /* Collapsed tab */
@@ -153,6 +153,24 @@
         }
 
         .panel.closed .panel-body { display: none; }
+        .panel:not(.closed) .panel-preview { display: none; }
+        .panel:not(.closed) .panel-expand { display: none; }
+
+        .panel-preview {
+            padding: 0 12px;
+        }
+
+        .panel-expand {
+            text-align: center;
+            padding: 10px 16px 12px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--grey-400);
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .panel-expand:hover { color: var(--grey-600); }
 
         .search-bar { padding: 12px 16px; }
 
@@ -380,11 +398,13 @@
     <div class="panel closed" id="panel">
         <div class="panel-tab" id="panelTab">
             <div class="panel-tab-left">
-                <span class="panel-tab-label" id="panelLabel">Studios laden...</span>
-                <span class="panel-tab-sub" id="panelSub"></span>
+                <span class="panel-tab-label">In der Naehe</span>
+                <span class="panel-tab-sub" id="panelSub">97 Studios</span>
             </div>
             <svg class="panel-tab-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 15l-6-6-6 6"/></svg>
         </div>
+        <div class="panel-preview" id="panelPreview"></div>
+        <div class="panel-expand" id="panelExpand">Alle Studios anzeigen</div>
         <div class="panel-body">
             <div class="search-bar">
                 <input type="text" id="searchInput" placeholder="Ort oder Studio suchen">
@@ -490,11 +510,39 @@
         }
 
         function updatePanelTab() {
-            const s = studios[0];
-            if (!s) return;
-            const d = formatDist(s.distance);
-            document.getElementById('panelLabel').textContent = s.name.replace('Activ Fitness ', '');
-            document.getElementById('panelSub').textContent = `${d.value} ${d.unit}`;
+            document.getElementById('panelSub').textContent = `${studios.length} Studios`;
+            renderPreview(studios.slice(0, 5));
+        }
+
+        function renderPreview(list) {
+            const container = document.getElementById('panelPreview');
+            container.innerHTML = '';
+            list.forEach((s, i) => {
+                const d = formatDist(s.distance);
+                const card = document.createElement('div');
+                card.className = 'studio-card' + (i === 0 ? ' nearest' : '');
+                const katLabel = s.kategorie === 1 ? '<span class="kat-badge kat-1">KAT 1</span>' : '';
+                card.innerHTML = `
+                    <div class="studio-distance">
+                        <div class="dist-value">${d.value}</div>
+                        <div class="dist-unit">${d.unit}</div>
+                    </div>
+                    <div class="studio-info">
+                        <div class="name">${s.name.replace('Activ Fitness ', '')}${katLabel}</div>
+                        <div class="address">${s.address}, ${s.zip} ${s.city}</div>
+                    </div>
+                    <div class="studio-arrow">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+                    </div>
+                `;
+                card.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    map.setView([s.lat, s.lng], 16, { animate: true });
+                    const found = markers.find(m => m.studio === s);
+                    if (found) found.marker.openPopup();
+                });
+                container.appendChild(card);
+            });
         }
 
         function renderList(list) {
@@ -635,6 +683,11 @@
 
         document.getElementById('panelTab').addEventListener('click', () => {
             panelOpen ? closePanel() : openPanel();
+        });
+
+        document.getElementById('panelExpand').addEventListener('click', (e) => {
+            e.stopPropagation();
+            openPanel();
         });
 
         document.getElementById('btn-locate').addEventListener('click', () => {
